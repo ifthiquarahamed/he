@@ -1,0 +1,111 @@
+
+
+.nav > li > a {
+    border-radius: 0;
+    font-size: 18px;
+    padding: 6px 18px;
+}
+.nav > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+    color: #fff;
+    background-color: #662d91;
+}
+
+.tab-content {
+    margin: 50px 0 20px 0;
+}
+.media > .pull-left {
+    margin-right: 29px;
+}
+.media .dateEl {
+    display: inline-block;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 18px 0 25px 0;
+    color: #173d51;
+    font-size: 16px;
+    font-weight: 700;
+    width: 113px;
+    text-transform: uppercase;
+}
+.media .dateEl em {
+    display: block;
+    color: #662d91;
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-style: normal;
+}
+.media .media-heading a {
+    color: #022235;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.media .meta-data {
+    margin: 0 0 7px 0;
+}
+.media .longDate, .media .timeEl {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    color: #636465;
+    text-transform: uppercase;
+    min-height: 16px;
+}
+.media .longDate {
+    background: transparent url(../images/ico-calendar.png) no-repeat left top;
+    padding: 0 10px 0 24px;
+    border-right: 1px solid #eb5b4c;
+    margin-right: 3px;
+}
+#tab1.tab-pane .media .longDate {
+    border-right: none;
+}
+.BS {
+    color: #7c7b7b;
+    margin: 20px 30px 40px 0;
+}
+.BS .media > .pull-left {
+    margin-right: 25px;
+}
+.BS a {
+    color: #662d91;
+}
+.BS .date, .BS .dateEl2 {
+    display: block;
+    text-align: center;
+    padding: 18px 0 25px 0;
+    color: #fff;
+    background: #662d91;
+    width: 113px;
+}
+.BS .date span, .BS .dateEl2 span {
+    display: inline-block;
+    font-size: 42px;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-indent: -0.1em;
+    color: #fff;
+    font-weight: bold;
+}
+.BS .date small, .BS .dateEl2 small {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.BS h4 {
+    margin: 0 0 12px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+
+
+.btn-default {
+    color: #fff;
+    font-size: 14px;
+    background-color: #662d91;
+    border-radius : 0px;
+}
